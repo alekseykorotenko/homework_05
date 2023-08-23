@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* 1 */
+body {
+    background-color: #B4B4B4;
+    background-image: url(../imgs/pink-flowers.webp) ;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* 10 */
+.wrapper {
+    width: 89%;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #1D1B1B;
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+
+/* 10 */
+.header, 
+/* 10 */
+.main, 
+/* 10 */
+.footer {
+    padding: 0 50px;
+}
+
+/* 10 */
+.header__heading {
+    padding-top: 96px; 
+    margin-bottom: 46px;
+    font-size: 2rem;
+}
+
+/* 10 */
+.header__heading--spec,
+/* 10 */
+.nav__heading,
+/* 10 */
+.article__text--spec {
+    text-transform: uppercase;
+}
+
+/* 10 */
+.header__heading--spec,
+/* 10 */
+.article__heading,
+/* 10 */
+.nav__heading,
+/* 10 */
+.footer__item--spec,
+/* 20 */
+.nav__link:hover  {
+    font-weight: 700;
+}
+
+/* 10 */
+.article__heading {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/* 10 */
+.article__item {
+    text-indent: 30px;
+}
+
+/* 10 */
+.article__text--add {
+    text-decoration: line-through;
+}
+
+/* 10 */
+.article__item--spec {
+    padding-top: 19px;
+}
+
+/* 10 */
+.header__heading,
+/* 10 */
+.article__heading,
+/* 20 */
+.nav__link:hover,
+/* 10 */
+.article__text--mod{
+    color: #A11414;
+}
+
+/* 10 */
+.header__img-wrap {
+    padding: 14px 13px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-bottom: 57px;
+}
+
+/* 11 */
+.header__img-wrap img {
+    width: 100%;
+}
+
+/* 10 */
+.section--flx {
+    display: flex;
+}
+
+/* 10 */
+.nav__wrap {
+    width: 21%;
+    border-radius: 2px 15px;
+    background: #D7D7D7;
+    padding: 29px 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 10 */
+.nav__heading {
+    margin-bottom: 24px;
+}
+
+/* 10 */
+.nav__link {
+    color: #000;
+    text-decoration: none;
+}
+
+/* 10 */
+.nav__link:hover {
+    text-decoration-line: underline;
+}
+
+/* 10 */
+.footer {
+    width: 86%;
+    margin-top: 42px;
+    color: #403636;
+    padding-bottom: 24px;
+    display: block ;
+}
+
+/* 10 */
+.footer__item {
+    text-align: center;
+    background: url(../imgs/back.gif), lightgray 50% / contain no-repeat;
+    height: 1px;
+    line-height: 50%;
+}
